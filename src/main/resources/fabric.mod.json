@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "jade-compat-addon",
+  "version": "${version}",
+  "name": "Jade Compat Addon",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/MIZUkiYuu/JadeCompatAddon"
+  },
+  "license": "MIT",
+  "icon": "assets/jadecompataddon/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.mizukiyuu.jadecompataddon.JadeCompatAddon"
+    ]
+  },
+  "mixins": [
+    "jadecompataddon.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
