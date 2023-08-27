@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.mizukiyuu.jadecompataddon.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "me.mizukiyuu.jadecompataddon.util.JadeCompatAddonMixinConfigPlugin",
+  "mixins": [
+    "carpetTIS.largeBarrel.PlatformProxyMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
